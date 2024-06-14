@@ -1,0 +1,9 @@
+/* src/styles/Background.module.css */
+.background {
+  background-size: cover;
+  background-position: center;
+  position: fixed; /* Ensure the background covers the entire screen */
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Send the background behind other content */
+}
